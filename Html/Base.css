@@ -1,0 +1,82 @@
+body {
+
+    font-family: 'serif' 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+    font-size: arial;
+    font-size: 27px;
+    background-image: url("fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+
+
+
+}
+
+.menu {
+    background-image: url("Coroa.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 60px 50px;
+    background: rgb(27, 133, 182);
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+/*Estilos para links*/
+a {
+    
+    text-decoration: none;
+    
+    color: rgba(9, 43, 59, 0.89);
+    
+    transition: color 0.3s ease, text-decoration 8.3s ease;
+}  
+
+a:hover {
+    
+    color:black; 
+    
+    text-decoration: underline;
+}
+    /* Estilo para o menu */
+p {
+        border-bottom: 6px solid rgb(14, 57, 77);
+      }
+.menu ul {
+    
+    display: flex;
+    
+    flex-direction: row;
+    
+    justify-content: space-around;
+    
+    padding: 0;
+    
+    margin: 0;
+    
+    list-style: none;
+    
+    }
+    
+menu li {
+    
+    margin: 0 15px; /* Espaço entre os itens do menu */
+}
+    
+    
+    /* Estilo para o cabeçalho */
+    
+.cabecalho {
+    
+    background-color: red; 
+    
+    border-radius: 15px;
+    
+    padding: 20px; /* Espaçamento interno */
+    
+    box-shadow: 8 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    
+    margin-bottom: 20px; /* Espaço abaixo do cabeçalho */
+    }
+    
